@@ -1,0 +1,20 @@
+{
+  "site_title": "Clases - Kinolab07",
+  "html_lang": "es",
+  "base_url": "https://clases.kinolab07.co",
+  "skip": "Pulsa \"Intro\" para saltar al contenido",
+  "open_menu": "abrir menú",
+  "sidebar_label": "Barra lateral",
+  "footer": "© Enrico Mandirola — KinoLab07",
+  "sitio_principal": "https://www.kinolab07.co/",
+  "sitio_principal_local": "http://localhost:4707/",
+  "sitio_principal_texto": "Ir a kinolab07.co",
+  "titles": {
+    "introduccion": "INTRODUCCIÓN A LAS ARTES ELECTRÓNICAS",
+    "index": "REFERENTES VARIOS",
+    "imagen-fija": "IMAGEN FIJA",
+    "sonido": "SONIDO",
+    "video": "VÍDEO"
+  },
+  "menu": ["introduccion", "index", "imagen-fija", "sonido", "video"]
+}

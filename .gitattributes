@@ -1,0 +1,4 @@
+# Sin conversión de saltos de línea.
+* -text
+*.woff2 binary
+*.svg text

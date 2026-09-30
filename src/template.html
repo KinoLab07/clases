@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{html_lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{head_title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
+<link rel="preload" href="assets/fonts/open-sans-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fuentes.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="page page-{{page}}">
+<a class="skip-content" href="#main">{{skip}}</a>
+
+<div class="overflow-container">
+  <div class="max-width">
+
+    <div class="main-sidebar">
+      <div class="sidebar-inner">
+
+        <header class="site-header">
+          <div class="title-container">
+            <div class="site-title"><a href="index.html">{{site_title}}</a></div>
+          </div>
+
+          <button class="toggle-navigation" aria-expanded="false" aria-controls="menu-primary-container">
+            <span class="screen-reader-text">{{open_menu}}</span>
+            <svg width="24" height="18" viewBox="0 0 24 18" aria-hidden="true" focusable="false">
+              <g fill="#6B6B6B">
+                <rect x="0" y="0"  width="24" height="2"></rect>
+                <rect x="0" y="8"  width="24" height="2"></rect>
+                <rect x="0" y="16" width="24" height="2"></rect>
+              </g>
+            </svg>
+          </button>
+
+          <div class="menu-primary-container" id="menu-primary-container">
+            <div class="menu-container menu-primary">
+              <nav class="menu" aria-label="{{site_title}}">
+{{menu}}
+              </nav>
+            </div>
+          </div>
+        </header>
+
+        <div class="sidebar-primary-container">
+          <aside class="sidebar sidebar-primary">
+            <h2 class="screen-reader-text">{{sidebar_label}}</h2>
+            <section class="widget">
+              <a href="{{sitio_principal}}">{{sitio_principal_texto}}</a>
+            </section>
+          </aside>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="main" id="main">
+      <article class="entry">
+        <header class="post-header">
+          <h1 class="post-title">{{title}}</h1>
+        </header>
+        <div class="post-content">
+{{content}}
+        </div>
+      </article>
+    </section>
+
+    <footer class="site-footer">
+      <span>{{footer}}</span>
+    </footer>
+
+  </div>
+</div>
+
+<script src="assets/js/menu.js" defer></script>
+</body>
+</html>
