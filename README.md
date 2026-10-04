@@ -83,8 +83,7 @@ El contenido venía pegado desde Word y desde otros editores, con atributos
 maquetación de PDF. Fuera todo: las páginas de SONIDO y VÍDEO adelgazan un 32%
 y un 43%.
 
-**No hay spam.** Revisé los 82 enlaces uno a uno: todos son referencias de
-clase legítimas. (El sitio principal sí tenía un enlace inyectado; este no.)
+Se revisaron los 82 enlaces uno a uno: todos son referencias de clase.
 
 ### Erratas
 
